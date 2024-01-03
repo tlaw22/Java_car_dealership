@@ -2,11 +2,12 @@ public class Customer {
     private String name;
     private String address;
     private double cashOnHand;
-
-    public void purchaseCar(){
-        System.out.println("Testing");
-    }
     
+    
+    public void purchaseCar(Vehicle vehicle, Employee emp, boolean finance) {
+        emp.handleCustomer(this, finance, vehicle);
+    }
+
     public String getName() {
         return name;
     }
@@ -30,6 +31,8 @@ public class Customer {
 
     public void setCashOnHand(double cashOnHand) {
         this.cashOnHand = cashOnHand;
+    }
+    public void purchaseCar(String string) {
     }
 
 }
