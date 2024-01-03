@@ -4,6 +4,12 @@ public class Customer {
     private double cashOnHand;
     
     
+    public Customer(String name, String address, double cashOnHand) {
+        this.name = name;
+        this.address = address;
+        this.cashOnHand = cashOnHand;
+    }
+
     public void purchaseCar(Vehicle vehicle, Employee emp, boolean finance) {
         emp.handleCustomer(this, finance, vehicle);
     }
