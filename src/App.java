@@ -5,7 +5,7 @@ public class App {
         cust1.setName("Tim");
         cust1.setCashOnHand(12000);
         cust1.setAddress("123 Evermore Ave");
-        cust1.purchaseCar("Mazaratti", emp, finance);   
-        cust1.toString();     
+        cust1.purchaseCar("Mazaratti", emp, finance);
+        cust1.toString();
     }
 }

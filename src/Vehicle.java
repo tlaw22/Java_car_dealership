@@ -27,9 +27,11 @@ public class Vehicle {
     public void setPrice(double price) {
         this.price = price;
     }
+
     public String getColor() {
         return color;
     }
+
     public void setColor(String color) {
         this.color = color;
     }
