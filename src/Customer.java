@@ -8,6 +8,7 @@ public class Customer {
         this.name = name;
         this.address = address;
         this.cashOnHand = cashOnHand;
+        
     }
 
     public void purchaseCar(Vehicle vehicle, Employee emp, boolean finance) {
